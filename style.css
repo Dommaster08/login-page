@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #917C78;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    margin: 50px auto;
+    padding: 50px 25px ;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #EAE1DF;
+    color: #1D221C;
+    box-shadow: 0px 3px 10px #1D221C;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.image{
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background-color: #1D221C;
+    transform: translateY(90px);
+    border: 1px solid #000;
+    box-shadow: 0px 2px 3px #1D221C;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+label{
+    margin: 10px 5px;
+}
+
+input{
+    padding: 4px;
+    width: 220px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: #EAE1DF;
+    color: black;
+}
+
+button{
+    margin: 30px auto;
+    padding: 8px 50px;
+    background-color: #1D221C;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.links{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.links a{
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.effect{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #1D221C;
+    margin: 0 auto;
+    transform: translateY(-5px);
+}
+
+.login-span{
+    color: rgb(252, 28, 28);
+    font-size: 0.8rem;
+}
